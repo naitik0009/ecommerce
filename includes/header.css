@@ -1,0 +1,224 @@
+
+  
+
+#up-nav{
+    background: #212529 ;
+    position: relative;
+    width:100%;
+    z-index: 999;
+    line-height: 65px;
+    
+}
+
+#up-nav .wapper{
+    
+    width: 100%;
+    padding : 0 30px;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+
+}
+
+#up-nav .wapper .nav-link{
+    display: inline-flex;
+
+}
+.nav-link-item{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#up-nav .wapper .nav-link li{
+    list-style: none;
+}
+
+.wapper .logo #logo {
+    width: 130px;
+    height: 70px;
+    padding-top: 13px;
+    cursor: pointer;
+
+}
+.wapper .nav-link li a{
+    color : #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 9px 15px;
+    transition: all 0.3s ease;
+}
+
+/* .wapper .nav-link li :hover{
+    background-color: gainsboro;
+} */
+
+
+.wapper .nav-link .drop-menu{
+    background-color: #fff;
+    width:auto;
+    top: 65px;
+    line-height: 45px;
+    display: none;
+    z-index: 999;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.wapper .nav-link a:hover{
+    color: gainsboro;
+}
+
+.wapper .nav-link li:hover ul.drop-menu{
+    display: block;
+}
+
+.wapper .nav-link .drop-menu li{
+    display: block;
+}
+
+.wapper .nav-link .drop-menu li a{
+    font-size: 16px;
+    color: black;
+
+}
+
+/* serach bar */
+.search {
+    flex: 2;
+    margin: 0 20px;
+}
+
+.search form {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+#up-nav .wapper .nav-link #topIcons{
+    width: 27px;
+    align-items: center;
+    align-content: center;
+    margin-top: 17px;
+   
+}
+
+.wapper .nav-link li:hover .drop-menu{
+    top: 65px;
+    transition: all 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+}
+
+.wapper .nav-link .drop-menu a{
+    width: auto;
+    display: block;
+    padding: 0 20px;
+    font-weight: 400;
+    border-radius: 0px;
+}
+
+
+/* down-nav */
+#down-nav{
+    background: #fff ;
+    width:100%;
+    position: relative;
+    line-height: 55px;
+    
+}
+
+#down-nav .wapper2{
+    
+    width: 100%;
+    padding : 0 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#down-nav .wapper2 .nav-links{
+    display: inline-flex;
+
+}
+#down-nav .wapper2 .nav-links li{
+    list-style: none;
+    color: black;
+}
+
+.wapper2 .nav-links li a{
+    color : #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 15px;
+    transition: all 0.3s ease;
+}
+
+/* .wapper .nav-link li :hover{
+    background-color: gainsboro;
+} */
+
+
+.wapper2 .nav-links .drop-menu{
+    background-color: #fff;
+    width:auto;
+    top: 65px;
+    line-height: 45px;
+    display: none;
+    z-index: 999;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.wapper2 .nav-links a:hover{
+    color: gainsboro;
+}
+
+.wapper2 .nav-links li:hover ul.drop-menu{
+    display: block;
+}
+
+.wapper2 .nav-links .drop-menu li{
+    display: block;
+}
+.wapper2 .nav-links .drop-menu li a{
+    font-size: 16px;
+    color: black;
+    
+
+}
+
+.wapper2 .nav-links li:hover .drop-menu{
+    top: 55px;
+    transition: all 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+}
+
+.wapper2 .nav-links .drop-menu a{
+    width:100%;
+    display: block;
+    font-weight: 400;
+    border-radius: 0px;
+}
